@@ -1,0 +1,79 @@
+.cabecera{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    padding: 0px 40px;
+}
+.logo{
+    width: 170px;
+}
+.contenido{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+.card{
+    /*background-color: blue;*/
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-color: #000000b4;
+    border-radius: 5px;
+}
+.texto-1{
+    width: 70%;
+    font-size: 37px;
+    font-weight: bold;
+}
+.input-form{
+    width: 65%;
+    padding: 24px 2.5%;
+    background-color: #00000080;
+    border-radius: 5px;
+    border: 2px solid grey;
+    color: white;
+    font-size: 20px;
+}
+.input-form:focus{
+    border: 3px solid white;
+    outline: none;
+}
+.boton-sesion{
+    color: white;
+    background-color: #e50914;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 24px 16px;
+    width: 70%;
+    transition: 1s;
+}
+.boton-sesion:hover{
+    background-color: #c4151e;
+    transform: scale(1.1);
+}
+.texto-2{
+    width: 70%;
+    text-align: center;
+    font-size: 16px;
+}
+
+.boton-codigo{
+    color: white;
+    background-color: #ffffff42;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 24px 16px;
+    width: 70%;
+    transition: 1s;
+}
+.boton-codigo:hover{    
+    background-color: #ffffff29;
+    transform: scale(1.1);
+}
